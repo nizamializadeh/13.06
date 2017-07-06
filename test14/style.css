@@ -1,0 +1,15 @@
+body{
+	margin:0;
+}
+.galerya{
+	margin:0 auto;
+	width: 400px;
+	background-color: red;
+}
+.item{
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	float: left;
+	margin: 10px;
+}
