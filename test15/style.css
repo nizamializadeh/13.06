@@ -1,0 +1,21 @@
+.a{
+	position: absolute;
+		margin-top: 200px;
+		font-size: 90px; 
+	border-radius: 60px;
+	background-color: transparent;
+	color: white;
+}
+.b{
+	position: absolute;
+	margin-top: 200px;
+	margin-left: 930px;
+	font-size: 90px; 
+	border-radius: 60px;
+	background-color: transparent;
+	color: white;
+}
+img{
+	position: absolute;
+	width: 1000px;
+}
