@@ -1,0 +1,34 @@
+body{
+	margin: 0;
+}
+.silider{
+	width: 800px;
+	margin: 0 auto;
+}
+.imgframe{
+	width: 100%;
+	overflow: hidden;
+	
+}
+.imgslide{
+	position: relative;
+	width: 2385px;
+	left: 0;
+}
+.item{
+	width: 800px;
+	height: 400px;
+    overflow: hidden;
+	display: inline-block;
+	margin-right: -5px;
+	float: left;
+}
+.item img{
+	width: 100%
+}
+.btns>div{
+	padding: 10px 20px;
+	border: 1px solid gray;
+	display: inline-block;
+	float: left;
+}

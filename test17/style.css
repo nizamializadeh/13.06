@@ -1,0 +1,13 @@
+.contanr{
+	width: 200px;
+	height: 200px;
+	background-color: green;
+	transition: all .9s;
+	position: relative;
+	left: 0px;
+}
+/*.contanr:hover{
+	margin-left: 1390px;
+	height: 200px;
+	background-color: green;
+}*/

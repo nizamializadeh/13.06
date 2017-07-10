@@ -1,0 +1,30 @@
+body{
+	margin: 0px;
+}
+*{
+	transition: .5s;
+}
+img{
+	position: absolute;
+	margin-top: 6px;
+	opacity: 2;
+}
+.border{
+	width: 33px;
+	height: 33px;
+	background-color: gray;
+	border-radius: 50%;
+	position: absolute;
+	margin-left: 204px;
+
+}
+.border button{
+	background-color: gray;
+	height: 2px;
+	width: 3px;
+	border:none;
+	color: white;
+	margin-left: 6px;
+	margin-top: 8px;
+	
+}
