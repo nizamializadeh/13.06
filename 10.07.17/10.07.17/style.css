@@ -1,0 +1,74 @@
+body{
+	margin: 0;
+}
+*{
+		transition:all 1s cubic-bezier(0,-0.26, 0,-0.01);
+		opacity: 1;
+}
+.slide{
+	width: 845px;
+	margin: 0 auto;
+}
+.imgframe{
+	width: 100%;
+	overflow: hidden;
+}
+.slide .imgslide{
+	position: relative;
+	width: 9000px;
+	left: 0;
+
+
+}
+.slide .imgslide .item{
+	width: 895px;
+	height: 600px;
+    overflow: hidden;
+	display: inline-block;
+	margin-right: -5px;
+	float: left;
+	t
+	
+}
+.slide .imgslide .item img{
+	width: 100%;
+	position: relative;
+
+} 
+.btn{
+	
+}
+.btn div{
+display: inline-block;
+
+width: 30px;
+height: 30px;
+border-radius: 50%;
+background-color: black;
+border: 1px solid gray;
+
+
+
+}
+.btn div i{
+	color: white;
+	text-align: center;
+	margin-top: 7px;
+	margin-left: 8px;
+	font-weight: bold;
+
+	
+}
+button{
+	position: absolute;
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	background: red;
+	top:0;
+    left: 1084px;
+    border: none;
+}
+button i{
+	color: white;
+}
