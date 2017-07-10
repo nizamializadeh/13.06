@@ -2,16 +2,16 @@ var clientWitdh = document.querySelector(".item").clientWidth;
 iteration=0;
 function left(){
 	iteration+=clientWitdh;
-	if (iteration<-9000) {
-		iteration=0;
+	if (iteration>0) {
+		iteration=-8060;
 	}
 	document.querySelector(".imgslide").style.left=iteration+"px";
 	console.log(iteration)
 }
 function right(){
 	iteration-=clientWitdh;
-	if (iteration>0) {
-		iteration=-8060;
+	if (iteration<-9000) {
+		iteration=0;
 	}
 	document.querySelector(".imgslide").style.left=iteration+"px";
 	console.log(iteration)
