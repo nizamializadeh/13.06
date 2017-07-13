@@ -1,0 +1,38 @@
+body{margin: 0}
+*{
+	transition: .5s	
+}
+.all{
+	
+}
+.item{
+	position: absolute;
+	height: 400px;
+
+	margin-left: 19%;
+	margin-top: 8%;
+	border-left: 2px solid black;
+
+
+}
+img{
+	height: 100%;
+	box-shadow: -5px 0px 13px 0px #000;
+	}
+.item:nth-child(1) {
+    left: 0px;
+    z-index: 1;
+}
+.item:nth-child(2) {
+    left: 100px;
+     z-index: 2;
+}
+.item:nth-child(3) {
+    left: 200px;
+     z-index:3;
+}
+
+.item:nth-child(4) {
+    left: 300px;
+     z-index: 4;
+}
