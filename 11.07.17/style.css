@@ -14,7 +14,7 @@ div{
 	width: 800px;
 
 
-}
+}	
 img{
 	height: 100%;
 	box-shadow: -5px 0px 13px 0px #000;
@@ -23,19 +23,21 @@ img{
 div:nth-child(1) {
     left: 0px;
     z-index: 1;
+    transform = 'translateX(20px)';
 }
 div:nth-child(2) {
     left: 100px;
      z-index: 2;
+       transform = translateX(20px):;
 }
 div:nth-child(3) {
     left: 200px;
      z-index:3;
-       transform = translateX(90px);
+        transform = translateX(20px):;
 }
 
 div:nth-child(4) {
     left: 300px;
      z-index: 4;
-     transform = translateX(20px);
+      transform = translateX(20px):;
 }
