@@ -4,30 +4,65 @@
 // 	console.log(this)
 // })
 // var az = document.getElementsByTagName("img")[0];
-var aqa= ["img/image1.jpg","img/image2.jpg","img/image3.jpg","img/image4.jpg",];
-for (i=0;i<aqa.length;i++){
-	
+
 var a = document.createElement("div");
 document.body.appendChild(a);
+
+var aqa= ["img/image1.jpg","img/image2.jpg","img/image3.jpg","img/image4.jpg",];
+for (var i=0;i<aqa.length;i++){
+	
+
 var b = document.createElement("img")
 a.appendChild(b);
 b.setAttribute("src", aqa[i])
 
+}
 
+var imgs = document.querySelectorAll("img")
+for(var i=0;i<imgs.length;i++){
+	imgs[i].addEventListener("click", func)
 
 }
 
-	var name = document.querySelector("img")
-	
-	name.addEventListener("click",function(){
+function func(){
+	for( var i=0;i<imgs.length;i++){
+		imgs[i].style.zIndex = 0
+
+this.style.marginLeft = "100px"
 		
-	name.style.zIndex = [5];
-	name.style.position = 'relative';
-	name.style.transform = 'translateX(-20px)'
+	}
+	
+	this.style.zIndex =1
+	console.log(this.style.zIndex)
 
+}
 
-	console.log(this);
-	console.log(name)
 	
 
-})
+
+	
+// 		this.addEventListener("click",function(this){	
+		
+// 		this.style.zIndex = [i];
+// 		this.style.position = 'absolute';
+// 		this.style.transform = 'translateX(-20px)'	
+
+// })
+
+
+
+
+
+
+// 		var a=document.querySelectorAll("img")
+
+// for(var i=0; i<a.length;i++){
+// 	a[i].addEventListener("click",myfunc)
+// }
+
+// function myfunc(){
+// 	for(var i=0; i<a.length;i++){
+// 		a[i].style.zIndex = -1
+// 	}
+// 	this.style.zIndex = 1
+// }
