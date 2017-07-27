@@ -1,0 +1,78 @@
+#navbar .col {
+  border: none; }
+#navbar i {
+  color: #606060;
+  font-size: 17px;
+  font-weight: 100;
+  margin-right: 10px; }
+#navbar input {
+  background-color: transparent;
+  border: none;
+  width: 700px;
+  height: 46px;
+  outline: none; }
+#navbar .fa-phone {
+  font-size: 18px;
+  color: #323a45;
+  margin-right: 10px;
+  background-color: #ccffff; }
+#navbar a {
+  text-decoration: none; }
+#navbar .number {
+  display: inline-block; }
+#navbar .number:hover {
+  color: #f5dca7; }
+#navbar span {
+  color: #606060;
+  font-size: 17px;
+  text-decoration: none;
+  font-weight: 100;
+  margin-right: 13px; }
+#navbar .email {
+  display: inline-block;
+  margin-left: 15px; }
+#navbar .email:hover {
+  color: #f5dca7; }
+#navbar .logo {
+  float: left; }
+#navbar .fa-angle-down {
+  font-size: 20px;
+  margin-left: 10px;
+  font-weight: 400;
+  color: #606060; }
+#navbar ul {
+  padding-left: 300px;
+  list-style: none; }
+#navbar li {
+  font-size: 16px;
+  font-family: "Raleway", sans-serif;
+  line-height: 30px;
+  color: #606060; }
+#navbar li:hover {
+  border-bottom: 2px solid green;
+  transition: 0.5s; }
+#navbar .qoute {
+  display: inline-block;
+  width: 150px;
+  height: 44px;
+  background: #53b778;
+  margin-left: 30px; }
+  #navbar .qoute a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    position: relative;
+    top: 10px;
+    left: 20px; }
+    #navbar .qoute a i {
+      font-size: 19px;
+      margin-left: 7px;
+      color: #f5dca7; }
+  #navbar .qoute .qoute:hover a {
+    color: #53b778; }
+#navbar .qoute:hover {
+  background-color: white;
+  transition: 0.5s; }
+
+/*# sourceMappingURL=style.css.map */
